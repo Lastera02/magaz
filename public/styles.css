@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background: #f4f7fb;
+  color: #1f2a44;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+input, button {
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #c8d2e8;
+  padding: 0.65rem 0.8rem;
+}
+
+button {
+  background: #2667ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.ghost {
+  background: transparent;
+  color: #2667ff;
+}
+
+pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: 8px;
+  padding: 0.8rem;
+  overflow-x: auto;
+}
