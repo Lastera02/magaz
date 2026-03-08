@@ -1,0 +1,19 @@
+{
+  "name": "magaz-starter",
+  "version": "1.0.0",
+  "description": "Стартовый проект магазина с логином и авторизацией",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js"
+  },
+  "keywords": ["shop", "auth", "starter"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
